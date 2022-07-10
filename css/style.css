@@ -22,10 +22,16 @@
 }
 
 #header {
-    background-color: black;
+    background-color: #353535;
+    background-image: url(../images/ok.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
 }
 .headerimage{
    width : 100%;
+   display:none;
 }
 .container p{
     color:#fdfdfd;
@@ -35,23 +41,26 @@
 } 
 .container h3{
     text-align: center;
-    color:#f9004d;
+    color:black;
+    font-weight: 900;
     margin-top: 10%;
     font-size: 3rem;
+    font-family: Poppins;
 }
 span{
     color:#f9004d;
 }
 #pricing{
-    background-color: #000000;
+    background-color: white;
     text-align: center;
     
 }
 .row h4{
-    font-family: Heebo;
+    font-family: Poppins;
     margin: 5%;
     font-size: 2.5rem;
-    color: white;
+    color: black;
+    font-weight: 900;
 }
 .card{
     margin: 10% 0%;
@@ -78,4 +87,30 @@ span{
 .nope p a{
 
     text-decoration: none;
+}
+.joss{
+    width: 90%;
+    border-radius: 30px;
+    margin: 35px 0px 0px 50px;
+}
+#Service{
+    padding: 0% 5%;
+    background-color: white;
+}
+article{
+    padding-top: 20%;
+    font-family: Poppins;
+    font-size: 19px;
+    line-height: 1.9;
+    color: rgb(198, 191, 191);
+}
+.srnc{
+    margin-top: 5%;
+}
+.log{
+    width: 100%;
+    margin-top: 5%;
+}
+.nk{
+    padding-bottom: 20px;
 }
